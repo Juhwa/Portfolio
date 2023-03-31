@@ -1,0 +1,391 @@
+body {
+  margin: 0;
+  /*font-family: "Roboto Mono", monospace;*/
+  font-family: "Open Sans", sans-serif;
+}
+
+/*home*/
+
+.h {
+  margin: 30px 60px 10px 60px;
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 1.5em;
+  margin-top: 100px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 1.5em;
+  margin-top: 100px;
+}
+
+h4 {
+  text-align: center;
+  font-weight: 300;
+  margin-top: 0;
+  font-size: 0.9em;
+}
+
+nav {
+  display: flex;
+  flex-wrap: 1 0 67%;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.title {
+  font-size: 1.5em;
+  font-size: 500;
+  line-height: 1.3em;
+  color: #000;
+}
+
+nav a,
+a {
+  text-decoration: none;
+  color: #000;
+  text-transform: uppercase;
+}
+
+.image {
+  -webkit-transition: all 0.7s ease;
+  transition: all 0.7s ease;
+  display: block;
+}
+a:hover .image {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+  opacity: 0.2;
+}
+a {
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  color: #000;
+}
+
+a .overlay {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.7s ease;
+}
+
+a:hover .overlay {
+  opacity: 1;
+}
+
+a:hover .overlay h4 {
+  font-size: 2em;
+  color: #000;
+  font-weight: 600;
+}
+
+.header-nav {
+  text-align: right;
+  margin-left: auto;
+  padding-left: 2.3vw;
+}
+
+/*
+ul {
+  display: flex;
+  list-style: none;
+}
+*/
+
+li {
+  font-weight: 600;
+  margin: 0px 30px 30px 30px;
+  font-size: 1.1em;
+  line-height: 1.6;
+}
+
+main {
+  margin-top: 80px;
+}
+
+.introduce {
+  font-size: 1em;
+  text-align: center;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #666;
+}
+
+.introduce_jocelyn {
+  font-size: 1.1em;
+  text-align: left;
+  font-weight: 300;
+  line-height: 1.7em;
+  color: #222;
+  margin-top: 100px;
+}
+
+.introduce h1 {
+  font-weight: 300;
+  color: #666;
+  font-size: 1.3em;
+}
+
+.mobile {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.ux {
+  display: flex;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.website {
+  display: flex;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.m1 img {
+  width: 99%;
+}
+
+.m2 img {
+  width: 99%;
+  float: right;
+}
+
+.print {
+  margin-top: 20px;
+  display: flex;
+}
+
+/* WEbilize*/
+.webilize text{
+width: 50%;
+}
+
+.webilize g{
+  width: 45%;
+  padding-left: 50px;
+   margin-left: 50px;
+}
+/* WEbilize*/
+
+.p1 img {
+  width: 98%;
+}
+
+.p2 img {
+  width: 98%;
+}
+
+.p3 img {
+  width: 98%;
+}
+/*home*/
+
+/*disputeme*/
+.sub {
+  background-image: url("../img/dispute_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 450px 0 420px 0;
+}
+
+.food {
+  background-image: url("../img/banner_w.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 310px 0 360px 0;
+}
+
+.food_hi {
+  background-image: url("../img/high-fidelity_w.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 310px 0 360px 0;
+}
+
+.erp {
+  background-image: url("../img/erp_banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  padding: 450px 0 420px 0;
+}
+
+.discription {
+  margin: 40px 100px 20px 100px;
+}
+
+.learn {
+  margin-top: 70px;
+  padding: 80px 90px 60px 90px;
+  background-color: #253551;
+  color: #fff;
+  padding-top: 80px;
+  padding-bottom: 100px;
+}
+
+.bf {
+  margin: 80px 100px 0px 100px;
+  display: flex;
+}
+
+.dis {
+  margin: 0px 10px 0px 100px;
+  display: flex;
+}
+
+.d1 {
+  width: 100%;
+}
+
+.d2 {
+  width: 100%;
+}
+
+h4 {
+  font-weight: 400;
+  font-size: 2em;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+h5 {
+  font-weight: 500;
+  font-size: 1.3em;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-weight: 300;
+}
+
+.small {
+  font-size: 0.8em;
+  font-style: italic;
+  line-height: -2;
+}
+/*disputeme*/
+
+@media screen and (max-width: 767px) {
+  /* WEbilize*/
+.webilize text{
+width: 90%;
+}
+
+.webilize g{
+width: 90%;
+  padding-left: 0;
+}
+/* WEbilize*/
+  
+  nav {
+    display: block;
+    text-align: center;
+    background: #000;
+    width: 100%;
+  }
+
+  .h {
+    margin: 0;
+  }
+
+  .title {
+    padding-top: 10px;
+  }
+
+  .header-nav {
+    padding-left: 0;
+    padding-bottom: 10px;
+  }
+/*
+  ul {
+    display: block;
+    text-align: center;
+    padding: 0;
+  }
+  */
+
+  nav a {
+    color: #fff;
+  }
+
+  .mobile {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+    .ux {
+    display: block;
+    width: 95%;
+    margin-top: 20px;
+  }
+
+  .website {
+    display: block;
+  }
+
+  .m1 img {
+    margin-top: 5px;
+  }
+
+  .m2 img {
+    float: left;
+  }
+
+  .print {
+    display: block;
+  }
+
+  h2 {
+    margin-top: 370px;
+  }
+
+  .discription {
+    margin: 10px 60px 20px 60px;
+  }
+
+  .sub {
+    background-size: contain;
+    width: 100%;
+    padding: 200px 0 200px 0;
+  }
+
+  .bf {
+    margin: 60px 60px 20px 60px;
+    display: block;
+  }
+
+  .dis {
+    margin: 0px 10px 0px 100px;
+    display: block;
+  }
+
+  .d1 {
+    width: 100%;
+  }
+
+  .d2 {
+    margin-top: 30px;
+    width: 100%;
+  }
+}
