@@ -19,9 +19,10 @@ hr{
 
 h1 {
   font-weight: bold;
-  font-size: 48px;
+  font-size: 40px;
   margin-top: 100px;
-  line-height: 1.2;
+  line-height: 2;
+  color: #4EA181;
 }
 
 h2 {
@@ -186,6 +187,19 @@ main {
   padding: 10px 20px 10px 20px;
 }
 
+.btn:hover{
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fff;
+  border-radius:  40px;
+  background-color: #4EA181;
+  bax-shadow: -1px 4px 0 0 #f9a826;
+  color: #fff;
+  font-weight: 700;
+  transition: background-color 650ms ease;
+  padding: 10px 20px 10px 20px;
+}
+
 .m1 img {
   width: 100%;
 }
@@ -288,10 +302,12 @@ width: 50%;
 
 .d1 {
   width: 100%;
+  text-align: center;
 }
 
 .d2 {
   width: 100%;
+  text-align: center;
 }
 
 h4 {
