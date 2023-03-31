@@ -1,19 +1,27 @@
 body {
   margin: 0;
-  /*font-family: "Roboto Mono", monospace;*/
-  font-family: "Open Sans", sans-serif;
+  padding-left: 6%;
+  padding-right: 6%;
+  font-family: "poppins", sans-serif;
 }
 
 /*home*/
+hr{
+  border: none;
+  color: #bbb;
+  background-color: #bbb;
+  height: 1px;
+}
 
 .h {
   margin: 30px 60px 10px 60px;
 }
 
 h1 {
-  font-weight: 400;
-  font-size: 1.5em;
+  font-weight: bold;
+  font-size: 64px;
   margin-top: 100px;
+  line-height: 1.2;
 }
 
 h2 {
@@ -34,13 +42,6 @@ nav {
   flex-wrap: 1 0 67%;
   flex-wrap: nowrap;
   align-items: center;
-}
-
-.title {
-  font-size: 1.5em;
-  font-size: 500;
-  line-height: 1.3em;
-  color: #000;
 }
 
 nav a,
@@ -97,30 +98,39 @@ a:hover .overlay h4 {
   padding-left: 2.3vw;
 }
 
-/*
+
 ul {
   display: flex;
   list-style: none;
+  font-size: 1em;
+  line-height: 1.3em;
+  color: #000;
+  margin-left: -67px;
 }
-*/
+
 
 li {
   font-weight: 600;
-  margin: 0px 30px 30px 30px;
+  margin: 0px 30px 2px 30px;
   font-size: 1.1em;
   line-height: 1.6;
 }
 
+li a:hover{
+  color: #4EA181;
+  text-decoration: underline;
+}
+
 main {
-  margin-top: 80px;
+  margin-top: 60px;
 }
 
 .introduce {
   font-size: 1em;
-  text-align: center;
   font-weight: 300;
   line-height: 1.7em;
   color: #666;
+  margin-left: 65px;
 }
 
 .introduce_jocelyn {
@@ -130,12 +140,6 @@ main {
   line-height: 1.7em;
   color: #222;
   margin-top: 100px;
-}
-
-.introduce h1 {
-  font-weight: 300;
-  color: #666;
-  font-size: 1.3em;
 }
 
 .mobile {
@@ -148,6 +152,19 @@ main {
   display: flex;
   width: 100%;
   margin-top: 20px;
+}
+
+.hero {
+  display: flex;
+  width: 100%;
+}
+
+.intro{
+  width: 60%;
+}
+
+.charactor{
+  width: 40%;
 }
 
 .website {
@@ -296,12 +313,25 @@ width: 90%;
   padding-left: 0;
 }
 /* WEbilize*/
-  
-  nav {
+  header{
+    width: 100%;
+  }
+
+  nav ul {
     display: block;
     text-align: center;
     background: #000;
+    padding: 10px 30px 10px 30px;
     width: 100%;
+  }
+
+    nav ul li{
+    padding: 10px 0px 10px 0px;
+    width: 100%;
+  }
+
+  .m_h{
+    display: none;
   }
 
   .h {
@@ -339,6 +369,20 @@ width: 90%;
     width: 95%;
     margin-top: 20px;
   }
+
+  .hero {
+  display: block;
+  width: 95%;
+  text-align: center;
+}
+
+.intro{
+width: 100%;
+}
+
+.charactor{
+  width: 100%;
+}
 
   .website {
     display: block;
