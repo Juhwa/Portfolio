@@ -49,9 +49,11 @@ h4{
   padding-left: 13%;
   padding-right: 13%; 
 }
+
 .name{
     width: 25%;
 }
+
 .email{
     width: 25%;
 }
@@ -74,14 +76,16 @@ h4{
   margin-top: 80px;
 }
 
-    .name{
+.name{
     width: 100%;
 }
 .email{
+    margin-top: 20px;
     width: 100%;
 }
 
 .phone{
+    margin-top: 20px;
     width: 100%;
 }
 
