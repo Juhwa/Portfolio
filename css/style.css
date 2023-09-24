@@ -7,9 +7,6 @@ body{
     background-size: cover;
     text-align: center;
 }
-.bgg{
-  background-image: url(bg_coming.jpg);
-}
 
 p{
     padding:0;
@@ -72,7 +69,4 @@ h4{
     margin-bottom: 32px; 
     margin-top: 8px;
 }
-     margin-top: 30px;
-        width: 100%;
-    }
     }
