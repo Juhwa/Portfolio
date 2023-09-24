@@ -53,17 +53,11 @@ h4{
   padding-right: 13%; 
 }
 
-.name{
-    width: 25%;
+.logo{
+    width: 550px; 
+    margin-bottom: 32px; 
+    margin-top: 8px;
 }
-
-.email{
-    width: 25%;
-    }
-
-.phone{
-        width: 25%;
-    }
 
 @media only screen and (max-width: 600px){
 .contact{
@@ -73,16 +67,11 @@ h4{
   margin-top: 80px;
 }
 
-.name{
-    width: 100%;
+.logo{
+    width: 400px; 
+    margin-bottom: 32px; 
+    margin-top: 8px;
 }
-
-.email{
-    width: 100%;
-     margin-top: 30px;
-    }
-
-.phone{
      margin-top: 30px;
         width: 100%;
     }
