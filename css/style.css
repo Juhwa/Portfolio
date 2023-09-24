@@ -2,8 +2,7 @@ body{
     margin: 55px;
     /*color: #191919;*/
     font-family: 'Montserrat', sans-serif;
-    /*background: url(../blur.jpg) no-repeat center center fixed;*/
-    background-image: url(../bg_coming.jpg);
+    background-image: url(../img/bg_coming.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
