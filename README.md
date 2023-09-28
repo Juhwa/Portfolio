@@ -140,4 +140,7 @@ Adobe Illustrator- http://adobe.com/in/products/illustrator.html <br>
 Adobe Photoshop- http://adobe.com/in/products/photoshop.html <br><br>
 
 Package Designer<br>
-https://thedieline.com/
+https://thedieline.com/<br><br>
+
+Instagram Widger<br>
+https://lightwidget.com/dashboard
