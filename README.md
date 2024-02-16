@@ -1,5 +1,8 @@
 # Portfolio
 
+Prompt Engineering<br>
+https://platform.openai.com/docs/guides/prompt-engineering<br><br>
+
 Mockup
 https://www.mockupworld.co/all-mockups/ <br><br>
 
