@@ -3,6 +3,19 @@
 Prompt Engineering<br>
 https://platform.openai.com/docs/guides/prompt-engineering<br><br>
 
+Free Ai tools<br>
+Luma Labs - https://lumalabs.ai/<br>
+Google Earth Studio - https://earth.google.com/studio/<br>
+Luma Labs 지니 - https://lumalabs.ai/discord<br>
+Perplexity - https://www.perplexity.ai/<br>
+SciSpace - https://typeset.io/<br>
+Google SGE - https://labs.google/<br>
+네이버 Que - https://cue.search.naver.com/<br>
+Suno -  https://www.suno.ai/<br>
+HuggingFace - https://huggingface.co/spaces/faceboo...<br>
+Vocal Remover -  https://vocalremover.org<br>
+Audiobox -  https://audiobox.metademolab.com/<br><br>
+
 Mockup
 https://www.mockupworld.co/all-mockups/ <br><br>
 
