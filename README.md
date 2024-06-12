@@ -159,4 +159,7 @@ Package Designer<br>
 https://thedieline.com/<br><br>
 
 Instagram Widger<br>
-https://lightwidget.com/dashboard
+https://lightwidget.com/dashboard<br><br>
+
+Hover Effect <br>
+https://www.proglobalbusinesssolutions.com/css-hover-effects/
