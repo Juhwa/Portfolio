@@ -1,5 +1,9 @@
 # Portfolio
 
+Wordpress by Local
+https://www.mamp.info/en/mac/<br>
+https://wordpress.org/download/<br>
+
 Prompt Engineering<br>
 https://platform.openai.com/docs/guides/prompt-engineering<br><br>
 
