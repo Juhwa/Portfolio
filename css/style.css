@@ -8,7 +8,7 @@ body{
 /*nav*/
 nav{
   background-color: #eeeeee;
-  padding: 2% 10%;
+  padding: 2% 8%;
   font-family: poppins;
   display: flex; 
   height: 60px;
@@ -49,6 +49,10 @@ a{
 .navbar_toogleBtn img{
     height: 30px;
 }
+
+main{
+    padding: 2% 6%;
+  }
 
 @media only screen and (max-width: 768px){
   nav{
@@ -108,10 +112,6 @@ h1{
     line-height: 1.5;
 }
 
-main{
-    padding: 2% 10%;
-  }
-
 /*websites*/
 .title{
     display: flex;
@@ -120,7 +120,7 @@ main{
 }
 
 .h2{
-    font-size: 20px;
+    font-size: 30px;
     font-weight: normal;
     text-align: center;
     text-transform: uppercase;
@@ -156,12 +156,14 @@ hr{
     width: 50%;
     right: 0;
     padding-right: 0;
+    text-align: center;
 }
 
 .latest{
     font-size: 16px;
     font-weight: 300;
     color: #a9a9a9;
+    text-align: center;
 }
 
 h3{
@@ -182,17 +184,17 @@ h3{
 
 h4{
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 400;
     color: #444;
     margin: 10px 0 -10px 0;
 }
 
 .info{
-    font-size: 20px;
+    font-size: 18px;
     margin-bottom: 50px;
     line-height: 1.5;
     font-weight: normal;
-    color: #626262;
+    color: #5a5a5a;
 }
 
 .info_mobile{
