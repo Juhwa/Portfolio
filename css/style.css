@@ -5,6 +5,9 @@ body{
     color: #435971;
 }
 
+header{
+    position: sticky;
+}
 /*nav*/
 nav{
   background-color: #eeeeee;
