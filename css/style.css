@@ -8,6 +8,7 @@ body{
 /*nav*/
 nav{
   background-color: #eeeeee;
+  position: sticky;
   padding: 2% 8%;
   font-family: poppins;
   display: flex; 
