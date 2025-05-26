@@ -152,7 +152,9 @@ Colorsinspo- colorsinspo.com <br>
 Eva Design System- http://colors.eva.design <br>
 Pigment- http://pigment.shapefactory.co <br>
 Color Claim- http://vanschneider.com/colors <br>
-Coolors — coolors.co <br><br>
+https://colorhunt.co/<br>
+https://goodpalette.io/cc1fb8-49dea5-bdb7bc<br>
+Coolors — https://coolors.co/ <br><br>
 
 Design Tools<br>
 1. Figma- http://figma.com <br>
