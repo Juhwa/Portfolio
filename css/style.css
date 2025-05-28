@@ -87,6 +87,10 @@ nav li{
 }
 
 @media screen and (max-width: 768px) {
+    header{
+        position: absolute;
+    }
+    
     .logo{
         width: 50px;
     }
