@@ -90,7 +90,7 @@ nav li{
     header{
         position: absolute;
     }
-    
+
     .logo{
         width: 50px;
     }
@@ -342,7 +342,7 @@ h4{
 /*sub pages*/
 .sub_intro{
     background-color: #eeeeee;
-    padding: 1% 15% 2% 15%;
+    padding: 10% 15% 2% 15%;
     text-align: center;
     margin-bottom: 40px;
     }
@@ -423,7 +423,7 @@ h4{
 
 @media only screen and (max-width: 768px){
     .sub_intro{
-        padding: 2% 5% 2% 5%;
+        padding: 18% 5% 2% 5%;
         }
 
     .contents_sub{
