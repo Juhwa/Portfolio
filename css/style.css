@@ -5,91 +5,144 @@ body{
     color: #435971;
 }
 
-header{
-    position: sticky;
-}
 /*nav*/
-nav{
-  background-color: #eeeeee;
-  position: sticky;
-  padding: 2% 8%;
-  font-family: poppins;
-  display: flex; 
-  height: 60px;
-  justify-content: space-between;
-  align-items: center;
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    padding: 1.3rem 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+header::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,.2);
+    backdrop-filter: blur(50px);
+    z-index: -1;
+}
+
+header::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,.4), transparent);
+    transition: .5s;
 }
 
 .logo{
-    height: 60px;
-    width: auto;
+    font-size: 2rem;
 }
 
-.navbar_menu{
-    display: flex; 
-}
-
-li{
-    list-style: none;
-    padding: 8px 20px;
-}
-
-a{
-    text-decoration: none;
-    color: #435971;
-    text-transform: uppercase;
-    font-size: 16px;
+.icons{
+    font-size: 2.8rem;
+    color: #000;
     cursor: pointer;
+    display: none;
+    position: absolute;
+    right: 5%;
 }
 
-.navbar_toogleBtn{
-    position: absolute;
-    height: 30px;
-    top: 3%;
-    right: 60px;
+nav a{
+    font-size: 1.15rem;
+    height: 100%;
+    margin-left: 2.5rem;
+    text-decoration: none;
+    color:  #435971;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+}
+
+nav li{
+    height: 50px;
+
+}
+
+#check{
     display: none;
 }
 
-.navbar_toogleBtn img{
-    height: 30px;
+
+/*break points*/
+@media (max-with: 992px){
+    header{
+        padding: 1.3rem 5%;
+    }
 }
+
+@media screen and (max-width: 768px) {
+    .icons{
+        display: inline-flex;
+    }
+
+    #check:checked~.icons #menu-open{
+        display: none;
+    }
+
+    .icons #menu-close{
+        display: none;
+    }
+
+    #check:checked~.icons #menu-close{
+        display: block;
+    }
+
+    nav{
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        height: 0;
+        background: rgba(0,0,0,.2);
+        backdrop-filter: blur(50px);
+        box-shadow: 1 .5rem 1rem rgba(0,0,0,.1);
+        overflow: hidden;
+        transition: .3s ease;
+    }
+
+    nav ul{
+        display: block;
+    }
+
+    #check:checked~nav{
+        display: block;
+        height: 17.7rem;
+    }
+
+    nav a{
+        display: block;
+        font-size: 1.1rem;
+        margin: 1.5rem 0;
+        text-align: center;
+        transform: translateY(-50px);
+        transition: .3s ease;
+    }
+
+    #check:checked~nav a{
+        transform: translateY(0);
+    }
+}
+/*nav*/
 
 main{
     padding: 2% 6%;
   }
 
 @media only screen and (max-width: 768px){
-  nav{
-    flex-direction: column;
-    /*align-items: flex-start;*/
-    align-items: center;
-    text-align: center;
-    background-color: #C2CCCD;
-    padding: 3% 0;
-    margin-bottom: 230px;
-  }
-
-  .navbar_logo{
-   width: 40%;
-}
-
-.navbar_menu{
-    flex-direction: column;
-   /* display: none;*/
-   background-color: #C2CCCD;
-   width: 90%;
-   padding: 5%;
-   margin: 0;
-  }
-  
-.navbar_toogleBtn{
-    display: block;
-}
-
-.navbar_menu.active{
-    display: flex;
-}
-
 .home_intro{
     padding: 2% 10% !important;
     }
