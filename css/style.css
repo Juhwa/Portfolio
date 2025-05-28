@@ -423,13 +423,13 @@ h4{
 
 /*footer*/
 footer{
-    background-color: #002F00;
-    color: #fff;
+    background-color: #eee;
     padding: 30px 60px;
 }
 
-footer h3{
+footer h3, footer a{
     font-size: 18px;
+    color: #6F7C8B;
 }
 
 .footer_c{
