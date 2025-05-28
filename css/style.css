@@ -421,6 +421,30 @@ h4{
         color: #626262;
     }   
 
+/*footer*/
+footer{
+    background-color: #002F00;
+    color: #fff;
+    padding: 30px 60px;
+}
+
+footer h3{
+    font-size: 18px;
+}
+
+.footer_c{
+ display: flex;
+}
+
+.footer_c div{
+    width: 50%;
+}
+
+.footer_c .right{
+    text-align: right;
+}
+/*footer*/
+
 @media only screen and (max-width: 768px){
     .sub_intro{
         padding: 18% 5% 2% 5%;
@@ -446,6 +470,18 @@ h4{
 
     .link a{
         line-height: 2.5;
+    }
+    
+    .footer_c{
+        display: block;
+       }
+       
+    .footer_c div{
+           width: 100%;
+           text-align: center;
+       }
+    .footer_c .right{
+        text-align: center;
     }
 }
 /*sub pages*/
