@@ -1,5 +1,12 @@
 # Portfolio
 
+AI Design Tools
+https://www.midjourney.com/home<br>
+https://lottiefiles.com/<br>
+https://spline.design/<br>
+https://labs.google/<br>
+https://www.aura.build/<br>
+
 SEO Audit Tools
 https://www.seoptimer.com/<br>
 https://neilpatel.com/ubersuggest/<br>
